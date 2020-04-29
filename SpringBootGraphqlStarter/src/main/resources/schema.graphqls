@@ -1,0 +1,19 @@
+type Post {
+    content: String!
+}
+
+type User {
+    name: String!
+    email: String!
+    posts: [Post]
+}
+
+type Query {
+    users: [User]!
+}
+
+
+type Mutation {
+    createPost(content: String!): Post!
+    createUser(name: String!, email: String!): User!
+}
