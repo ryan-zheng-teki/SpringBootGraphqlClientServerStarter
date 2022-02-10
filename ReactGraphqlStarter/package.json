@@ -82,7 +82,7 @@
     "html-loader": "^1.0.0",
     "html-webpack-plugin": "^4.0.4",
     "jest": "^25.2.7",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prettier": "2.0.5",
     "prettier-eslint": "9.0.1",
     "prettier-eslint-cli": "5.0.0",
